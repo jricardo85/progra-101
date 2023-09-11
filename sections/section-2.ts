@@ -1,6 +1,6 @@
 let numberOfLines = 0;
 
-export function printLineNumber() {
+function printLineNumber() {
     numberOfLines++;
     console.log('Línea #', numberOfLines );
 }
